@@ -6,7 +6,7 @@ class Loan:
         self.__loanAmount = loanAmount
         self.__borrower = borrower
 
-    def getAnnualInterestRate(self):
+    def getAnnualInterestRate(self):  ##  Note that set and get do different things BECAUSE of the way they are created, get only returns value, set changes value
         return self.__annualInterestRate
 
     def getNumberOfYears(self):
